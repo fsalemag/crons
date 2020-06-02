@@ -1,0 +1,3 @@
+[submodule "spotify-playlist-generator"]
+	path = spotify-playlist-generator
+	url = https://github.com/fsalemag/spotify-playlist-generator.git
