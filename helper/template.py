@@ -2,7 +2,8 @@
 import logging
 from os.path import basename, dirname, abspath
 
-cron_name = basename(dirname(abspath(__file__)))
+base_dir = dirname(abspath(__file__))
+cron_name = basename(base_dir)
 
 logging.basicConfig(
     level=logging.INFO, 
@@ -13,4 +14,3 @@ logging.basicConfig(
 logging.info('Start')
 
 logging.info('End')
-
